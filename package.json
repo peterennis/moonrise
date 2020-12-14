@@ -1,4 +1,10 @@
 {
+  "name": "moonrise",
+  "author": "adaept",
+  "license": "MIT",
+  "homepage": "https://adaept.com/",
+  "version": "0.0.1",
+  "private": false,
   "scripts": {
     "start": "snowpack dev",
     "build": "snowpack build",
@@ -25,5 +31,25 @@
     "prettier": "^2.2.1",
     "snowpack": "^2.18.4",
     "typescript": "^4.1.3"
-  }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peterennis/moonrise.git"
+  },
+  "bugs": {
+    "url": "https://github.com/peterennis/moonrise/issues"
+  },
+  "description": "an adaept project"
 }
